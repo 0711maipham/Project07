@@ -1,0 +1,17 @@
+input {
+    background-color: #C7E0FF;
+    padding: 10px;
+    border: none;
+}
+
+button {
+    background-color: #FFC05C;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: none;
+    width: 44px;
+}
+
+button:hover {
+    background-color: #FAFE84;
+}
