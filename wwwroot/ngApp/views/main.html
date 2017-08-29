@@ -1,3 +1,16 @@
 <h2>Main View</h2>
 
 <p>{{ controller.message }}</p>
+
+<!-- <label for="my-input">Sum of Number</label> -->
+<input id="input1" ng-model="controller.input1" type="number"/>
+<br>
+<button ng-click="controller.add()">+</button>
+<button ng-click="controller.subtract()">-</button>
+<button ng-click="controller.multiply()">x</button>
+<button ng-click="controller.divide()">/</button>
+<br>
+<input id="input2" ng-model="controller.input2" type="number"/>
+<div>
+   = {{ controller.result }}
+</div>
