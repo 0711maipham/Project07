@@ -4,12 +4,7 @@ class MainController {
         this.input1 = 0;
         this.input2 = 0;
         this.results = 0;
-        this.add();
-        this.subtract();
-        this.multiply();
-        this.divide();
     }
-
 add() {
     this.results = (this.input1 + this.input2);
 }
